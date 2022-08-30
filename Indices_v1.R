@@ -1,6 +1,6 @@
 ## MBT'5Me index from de Jonge, C., et al., 2014
 MBT5<-function(raw){
-  (raw$Ia+raw$Ib+raw$Ic)/(raw$Ia+raw$Ib+raw$Ic+raw$IIa+raw$IIb+raw$IIIa)
+  (raw$Ia+raw$Ib+raw$Ic)/(raw$Ia+raw$Ib+raw$Ic+raw$IIa+raw$IIb+raw$IIc+raw$IIIa+raw$IIIb+raw$IIIc)
 }
 ## MBT'6Me index based on Dang, X., et al., 2016
 MBT6<-function(raw){
